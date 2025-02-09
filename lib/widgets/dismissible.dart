@@ -15,7 +15,7 @@ List<String> fruits = ['Apple', 'Banana', 'Orange', 'Peach'];
   Widget build(BuildContext context) {
     return Scaffold(
      appBar: AppBar(
-        title: Text('Snackbar' , style: TextStyle(color: Colors.white),),
+        title: Text('Dismissible' , style: TextStyle(color: Colors.white),),
         backgroundColor: Colors.deepPurple,
         centerTitle: true,
         leading: Icon(Icons.home),
