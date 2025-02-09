@@ -4,6 +4,7 @@ import 'package:testapp/widgets/ListGrid.dart';
 import 'package:testapp/widgets/rowcols.dart';
 
 import 'widgets/Container_Sized.dart';
+import 'widgets/snackbar.dart';
 
 void main()
 {
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       
       theme: ThemeData(
-        // brightness: Brightness.dark, 
+        brightness: Brightness.dark, 
         primaryColor: Colors.deepPurple,
        useMaterial3: true,
       //  colorSchemeSeed: Colors.red,
@@ -29,7 +30,10 @@ class MyApp extends StatelessWidget {
 
 
       // home: Container_Sized(),
-      home: ListGrid(),
+      //home: RowsCols(),
+      //home: ButtonWidget(),
+      // home: ListGrid(),
+      home: SnackWidget(),
       
 
     );
