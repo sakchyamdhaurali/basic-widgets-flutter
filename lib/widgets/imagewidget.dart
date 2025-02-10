@@ -44,7 +44,9 @@ const Imagewidget({ Key? key }) : super(key: key);
                     
                      color: Colors.green,
             
-                    image: DecorationImage(image: NetworkImage('https://creativescrapbooker.ca/wp-content/uploads/2019/12/day8-01-1024x1024.jpg'),
+                    image: DecorationImage(
+                    
+                      image: NetworkImage('https://creativescrapbooker.ca/wp-content/uploads/2019/12/day8-01-1024x1024.jpg'),
                     fit: BoxFit.cover,
                     
                     

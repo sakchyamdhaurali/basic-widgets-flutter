@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:testapp/widgets/ButtonWIdget.dart';
-import 'package:testapp/widgets/ListGrid.dart';
-import 'package:testapp/widgets/drawer.dart';
-import 'package:testapp/widgets/rowcols.dart';
+// import 'package:testapp/widgets/Container_Sized.dart';
+// import 'package:testapp/widgets/rowcols.dart';
+// import 'package:testapp/widgets/ButtonWIdget.dart';
+// import 'package:testapp/widgets/ListGrid.dart';
+// import 'package:testapp/widgets/dismissible.dart';
+// import 'package:testapp/widgets/drawer.dart';
+// import 'package:testapp/widgets/imagewidget.dart';
+// import 'package:testapp/widgets/snackbar.dart';
+import 'package:testapp/widgets/alert.dart';
 
-import 'widgets/Container_Sized.dart';
-import 'widgets/dismissible.dart';
-import 'widgets/imagewidget.dart';
-import 'widgets/snackbar.dart';
 
 void main()
 {
@@ -32,15 +33,8 @@ class MyApp extends StatelessWidget {
       ),
 
 
-      //home: Container_Sized(),
-      //home: RowsCols(),
-      //home: ButtonWidget(),
-      //home: ListGrid(),
-      //home: SnackWidget(),
-      //home: DismissibleWidget(),
-      //home: DrawerWidget(),
-      // home: Imagewidget(),
-        home: 
+ 
+        home: Alert(),
 
       
 

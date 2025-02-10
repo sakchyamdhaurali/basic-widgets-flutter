@@ -35,6 +35,9 @@ List<String> fruits = ['Apple', 'Banana', 'Orange', 'Peach'];
              
                 if(direction== DismissDirection.startToEnd)
                 {
+                  // showModalBottomSheet(context: context, builder: (context){
+                  //       return Column();
+                  // });
                   ScaffoldMessenger.of(context).showSnackBar(SnackBar(
                     content: Text(fruits[index]),
                     backgroundColor: Colors.red,
