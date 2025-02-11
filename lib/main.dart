@@ -10,7 +10,9 @@ import 'package:flutter/material.dart';
 // import 'package:testapp/widgets/alert.dart';
 // import 'package:testapp/widgets/bottomSheet.dart';
 // import 'package:testapp/widgets/bottomSheet.dart';
-import 'package:testapp/widgets/animated_text.dart';
+// import 'package:testapp/widgets/animated_text.dart';
+// import 'package:testapp/widgets/bottomnav.dart';
+import 'package:testapp/widgets/dropdown.dart';
 
 
 
@@ -38,7 +40,7 @@ class MyApp extends StatelessWidget {
 
 
  
-        home: AnimatedText(),
+        home: DropdownWidget(),
   
 
       
