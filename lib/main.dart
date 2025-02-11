@@ -12,7 +12,9 @@ import 'package:flutter/material.dart';
 // import 'package:testapp/widgets/bottomSheet.dart';
 // import 'package:testapp/widgets/animated_text.dart';
 // import 'package:testapp/widgets/bottomnav.dart';
-import 'package:testapp/widgets/dropdown.dart';
+// import 'package:testapp/widgets/dropdown.dart';
+// import 'package:testapp/widgets/form.dart';
+import 'package:testapp/widgets/stack.dart';
 
 
 
@@ -40,7 +42,7 @@ class MyApp extends StatelessWidget {
 
 
  
-        home: DropdownWidget(),
+        home: StackWidget(),
   
 
       
