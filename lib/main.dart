@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:testapp/widgets/TabBar.dart';
+// import 'package:testapp/widgets/animated_text.dart';
 // import 'package:testapp/widgets/Container_Sized.dart';
 // import 'package:testapp/widgets/rowcols.dart';
 // import 'package:testapp/widgets/ButtonWIdget.dart';
@@ -14,7 +16,7 @@ import 'package:flutter/material.dart';
 // import 'package:testapp/widgets/bottomnav.dart';
 // import 'package:testapp/widgets/dropdown.dart';
 // import 'package:testapp/widgets/form.dart';
-import 'package:testapp/widgets/stack.dart';
+// import 'package:testapp/widgets/stack.dart';
 
 
 
@@ -42,7 +44,7 @@ class MyApp extends StatelessWidget {
 
 
  
-        home: StackWidget(),
+        home: TabBarWidget(),
   
 
       
