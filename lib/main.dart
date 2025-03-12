@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:testapp/widgets/geolocator.dart';
 // import 'package:testapp/widgets/TabBar.dart';
-import 'package:testapp/widgets/imagepicker.dart';
+// import 'package:testapp/widgets/imagepicker.dart';
 // import 'package:testapp/widgets/animated_text.dart';
 // import 'package:testapp/widgets/Container_Sized.dart';
 // import 'package:testapp/widgets/rowcols.dart';
@@ -45,7 +46,7 @@ class MyApp extends StatelessWidget {
 
 
  
-        home: ImagepickerWidget(),
+        home: LocationWidget(),
   
 
       
