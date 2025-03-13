@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:testapp/widgets/geolocator.dart';
+import 'package:testapp/widgets/day19.dart';
+// import 'package:testapp/widgets/geolocator.dart';
 // import 'package:testapp/widgets/TabBar.dart';
 // import 'package:testapp/widgets/imagepicker.dart';
 // import 'package:testapp/widgets/animated_text.dart';
@@ -38,7 +39,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       
       theme: ThemeData(
-        brightness: Brightness.light, 
+        brightness: Brightness.dark, 
         primaryColor: Colors.deepPurple,
        useMaterial3: true,
       //  colorSchemeSeed: Colors.red,
@@ -46,7 +47,7 @@ class MyApp extends StatelessWidget {
 
 
  
-        home: LocationWidget(),
+        home: Day19(),
   
 
       
